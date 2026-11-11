@@ -1,0 +1,6 @@
+interface:
+  display_name: "标书三列索引与格式优化"
+  short_description: "依据招标要求保留原标书，补素材标题和三列跳转索引，并交付改动明细"
+  default_prompt: "请使用 $bid-evidence-index，依据我提供的招标要求和技术标或商务标，保留原目录及材料，补充素材小标题和三列可跳转证据索引，交付修改后的Word及改动明细。"
+policy:
+  allow_implicit_invocation: true
